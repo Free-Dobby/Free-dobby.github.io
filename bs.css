@@ -53,8 +53,10 @@ a{
    justify-content: center;
    flex-direction: column;
    gap:60px;
-   padding-left:340px;
+   padding-left:35px;
    padding-top:0px;
+   position: relative;
+   left:295px
 
 }
 
@@ -73,7 +75,7 @@ a{
 h1{
     color: aliceblue;
     display: flex;
-    align-content:  center;
+    align-content:center;
     font-family: sans-serif;
 }
 p{
@@ -97,9 +99,45 @@ p{
 .sign-up:hover{
    background-color: rgb(39, 255, 219);
    cursor: pointer;
-   transition: all 400ms;
-   transition-timing-function: ease-in 400ms;
+   transition: all 50ms;
+   transition-timing-function: ease-in 50ms;
 }
+/*Start of the mid-body*/
+
+h2{
+    background-color: antiquewhite;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #1f2937;;
+    
+}
+.mid-photo-list{
+    background-color:antiquewhite;
+    display:flex;
+    justify-content: center;
+    gap:60px;
+}
+.mid-photo{
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* start of quote*/
+
+.par{
+    background-color:rgb(189, 238, 222);
+    color:black;
+    font-size: 50px;
+    display:flex;
+    justify-content: center;
+padding:60px
+}
+.mark{
+    color: black;
+    font-weight: bold;
+}
+
 
 
 
