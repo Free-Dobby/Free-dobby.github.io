@@ -137,6 +137,63 @@ padding:60px
     color: black;
     font-weight: bold;
 }
+/* after quote*/
+h3{
+    display:flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    position: relative;
+    top:45px;
+    left:-40px;
+    color:black
+
+}
+.final-offer{
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom:90px;
+    color:black;
+    position: relative;
+    right:-560px;
+
+}
+.last{
+    background-color: antiquewhite;
+}
+.but{
+    height: 50px;
+    width:90px;
+    position: relative;
+    top:-129px;
+    right:-990px;
+    border-radius: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.but:hover{
+    cursor: pointer;
+    background-color:rgb(161, 94, 58);
+    transition: all 400ms;
+}
+.container2{
+        width: 470px;
+        border: 5px solid rgb(7, 214, 200);
+        padding: 50px;
+        margin: 20px;
+        background-color: aquamarine;
+        border-radius: 20px;
+        position: relative;
+        right:-500px;
+        bottom: -160px;
+        
+}
+
+.foot{
+    margin:40px;
+    justify-content: center;
+}
+
 
 
 
