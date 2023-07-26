@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+}
+/* color=#1f2937 ;
+*/
+
+body{
+    background-color:#1f2937
+}
+.nav-list{
+    background-color: #1f2937;
+    display:flex;
+    gap:30px;
+    align-items: center;
+    justify-content: right;
+    padding-right:60px;
+    font-size:20px;
+    font-family: Copperplate, Papyrus, fantasy;;
+    border-bottom-style: outset;
+}
+.nav-list li:first-child{
+    position: relative;
+    right:900px;
+    font-size: 24px;
+    font-weight: 800;
+    color:rgba(252, 218, 167, 0.675);
+   
+    font-family: Brush Script MT, cursive;  Copperplate, Papyrus, fantasy;
+}
+span{
+    font-family: Copperplate, Papyrus, fantasy; Brush Script MT, cursive;
+    font-style: italic;
+    color: rgb(161, 94, 58);
+}
+a:hover{
+    color:rgb(161, 94, 58);
+}
+a{
+    color:rgb(255, 255, 255);
+    transition-property: all 200ms;
+
+}
+/* this is after the nav-bar*/
+
+.top-half{
+    background-color:#1f2937;
+    height: 425px;
+    width: auto;
+    display: flex;
+   justify-content: center;
+   flex-direction: column;
+   gap:60px;
+   padding-left:340px;
+   padding-top:0px;
+
+}
+
+.photo-two{
+    height:250px;
+    width: auto;
+    border-style: none;
+    border-color: black;
+    object-fit: contain;
+    position: relative;
+    top:-310px;
+    right:-1000px
+}
+
+
+h1{
+    color: aliceblue;
+    display: flex;
+    align-content:  center;
+    font-family: sans-serif;
+}
+p{
+    color: aliceblue;
+    display: flex;
+    align-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sign-up{
+    padding: 8px 30px;
+    background-color:rgba(241, 151, 102, 0.878) ;
+    border-radius: 7px;
+    position:relative;
+    right:-330px;
+    top: -70px;
+    font-family:serif;
+    font-weight: 800;
+    font-size: 16px;
+  
+}
+.sign-up:hover{
+   background-color: rgb(39, 255, 219);
+   cursor: pointer;
+   transition: all 400ms;
+   transition-timing-function: ease-in 400ms;
+}
+
+
+
